@@ -59,6 +59,7 @@ int main() {
     printf(BLUE "Welcome to Jeopardy!\n" RESET);
     initialize_game();
     
+    // Ask for player names
     for (int i = 0; i < NUM_PLAYERS; i++) {
         printf("Enter name for Player %d: ", i + 1);
         fgets(players[i].name, MAX_LEN, stdin);

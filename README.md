@@ -13,4 +13,4 @@ The program then prints out each of the question categories and displays the dol
 The program will accept the name of the person selected to pick a question and validates that the name matches to one of the prerecorded player names.
 The program then prompts the player for the category and dollar amount question and check if it's not already answered.
 The program will then display the question and await for input which contains either the phrases "what is" or "who is" at the start.
-After the player answers the question the program displays whether they got it correct or incorrect. If the player answered the question correctly the program updates their score. If they answered incorrectly the program displays the answer and no user will receive any points.
+After the player answers the question the program displays whether they got it correct or incorrect. If the player answered the question correctly the program updates their score. If they answered incorrectly the program displays the answer and no user will receive any points. The question will then be marked as answered.

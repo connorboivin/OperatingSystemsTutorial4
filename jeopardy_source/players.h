@@ -10,6 +10,7 @@
 
 #include <stdbool.h>
 
+#define MAX_PLAYERS 4
 #define MAX_LEN 256
 
 // Player struct for each player

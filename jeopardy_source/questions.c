@@ -34,6 +34,54 @@ void initialize_game(void) {
     questions[2].value = 300;
     questions[2].answered = false;
 
+    strcpy(questions[3].category, "Programming");
+    strcpy(questions[3].question, "What is the main language used for Android app development?");
+    strcpy(questions[3].answer, "Java");
+    questions[3].value = 100;
+    questions[3].answered = false;
+
+    strcpy(questions[4].category, "Programming");
+    strcpy(questions[4].question, "Which programming language is often used for AI and machine learning?");
+    strcpy(questions[4].answer, "Python");
+    questions[4].value = 200;
+    questions[4].answered = false;
+
+    strcpy(questions[5].category, "Programming");
+    strcpy(questions[5].question, "Which keyword in C is used to define a constant variable?");
+    strcpy(questions[5].answer, "const");
+    questions[5].value = 300;
+    questions[5].answered = false;
+
+    strcpy(questions[6].category, "Programming");
+    strcpy(questions[6].question, "Which low-level programming language is used to directly manipulate hardware?");
+    strcpy(questions[6].answer, "Assembly");
+    questions[6].value = 400;
+    questions[6].answered = false;
+
+    strcpy(questions[7].category, "Algorithms");
+    strcpy(questions[7].question, "Which algorithm finds the shortest path in a graph?");
+    strcpy(questions[7].answer, "Dijkstra");
+    questions[7].value = 100;
+    questions[7].answered = false;
+
+    strcpy(questions[8].category, "Algorithms");
+    strcpy(questions[8].question, "Which algorithm uses a divide-and-conquer approach to sort elements?");
+    strcpy(questions[8].answer, "Quick Sort");
+    questions[8].value = 200;
+    questions[8].answered = false;
+
+    strcpy(questions[9].category, "Databases");
+    strcpy(questions[9].question, "Which type of database stores data in key-value pairs?");
+    strcpy(questions[9].answer, "NoSQL");
+    questions[9].value = 100;
+    questions[9].answered = false;
+
+    strcpy(questions[10].category, "Databases");
+    strcpy(questions[10].question, "What is the SQL command used to remove all records from a table but keep the structure?");
+    strcpy(questions[10].answer, "TRUNCATE");
+    questions[10].value = 300;
+    questions[10].answered = false;
+
     // Shuffle the questions for randomness
     for (int i = 0; i < NUM_QUESTIONS; i++) {
         int j = rand() % NUM_QUESTIONS;
